@@ -163,3 +163,16 @@ offline using bluetooth to synchronise with the server once back online.
 ### M6
 
 Synchronise between devices using websockets when online.
+
+## TODO
+
+- add frontend for viewing published forms
+- creating new form
+- syncing forms from server (min every 10 seconds)
+- editing a new form and publishing it
+
+- add backend with auth endpoint
+- GET /forms endpoint - only returns published forms
+- POST /form endpoint - only allows creating a published form
+
+- NO DRAFTS in M1
